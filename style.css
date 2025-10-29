@@ -75,6 +75,34 @@ body {
   animation: fade 0.5s ease-in;
 }
 
+#result_div {
+  width: 100%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#res_div {
+
+border-radius: 5px;
+border: 1px solid #ccc;
+width: 80%;
+padding-left: 14px;
+padding-right: 14px;
+
+}
+
+
+
+#copy_btn{
+ padding: 12px 20px;
+  
+}
 @keyframes fade {
   from { opacity: 0; }
   to { opacity: 1; }
