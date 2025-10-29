@@ -1,3 +1,3 @@
 window._backhost_ = {
-    host: "localhost"
-}
+  host: "localhost"
+};
